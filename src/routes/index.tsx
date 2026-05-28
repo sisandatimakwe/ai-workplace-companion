@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Mail, FileText, ListTodo, Search, MessageSquare, ArrowRight, Sparkles } from "lucide-react";
+import { Mail, FileText, ListTodo, Search, MessageSquare, ArrowRight, Sparkles, BookOpen } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ResponsibleAiNote } from "@/components/ResponsibleAiNote";
 
@@ -19,6 +19,7 @@ const tools = [
   { to: "/task-planner", icon: ListTodo, title: "AI Task Planner", desc: "Break goals into prioritized, scheduled tasks." },
   { to: "/research", icon: Search, title: "AI Research Assistant", desc: "Get structured briefs on any topic in seconds." },
   { to: "/chatbot", icon: MessageSquare, title: "AI Chatbot", desc: "Conversational assistant for anything work-related." },
+  { to: "/readme", icon: BookOpen, title: "Read Me", desc: "Project overview, tools, architecture & docs." },
 ] as const;
 
 function Dashboard() {
