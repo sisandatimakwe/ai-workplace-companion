@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Mail, FileText, ListTodo, Search, MessageSquare, ArrowRight, Sparkles } from "lucide-react";
+import { Mail, FileText, ListTodo, Search, MessageSquare, ArrowRight, Sparkles, BookOpen } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ResponsibleAiNote } from "@/components/ResponsibleAiNote";
 
